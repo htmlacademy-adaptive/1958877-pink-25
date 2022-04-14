@@ -1,0 +1,297 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../../fonts/opensans.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../../fonts/opensansbold.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../../fonts/opensanslight.woff2") format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+  background-color: #ffffff;
+}
+
+.page__container {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.main-header__background {
+  background-image: url("../../../img/back-mobile.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #283645;
+}
+
+.header {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.header-middle {
+  background-image: url("../../../img/back-mobile.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-nav {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  background-color: #1D2631;
+}
+
+.header-footer {
+  color: #FFFFFF;
+  background: #1D2631;
+}
+.header-footer__button {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.download__notes {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.copyright__text {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.contacts__text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+.contacts__description {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+.contacts__telephone, .contacts__email, .contacts__address {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: #D22856;
+}
+.contacts__image {
+  height: 200px;
+  background-image: url("../../../img/map.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.table-price {
+  line-height: 30px;
+}
+.table-price__header {
+  color: #FFFFFF;
+  background: #283645;
+  border: 2px solid #283645;
+  border-radius: 1px 0px 0px 0px;
+}
+.table-price__license-type {
+  font-weight: 700;
+  font-size: 16px;
+}
+.table-price__license-price {
+  font-weight: 300;
+  font-size: 18px;
+}
+.table-price__cell {
+  text-align: start;
+  border: 2px solid #E5E5E5;
+  border-radius: 1px 0px 0px 0px;
+}
+
+.price {
+  background: #F2F2F2;
+}
+
+.rewiew__owner {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+.rewiew__description {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.advantages {
+  background: #F2F2F2;
+}
+.advantages__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.main-container {
+  text-align: center;
+}
+.main-container__legend {
+  color: #283645;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.form-header {
+  background-image: url("../../../img/back-mobile.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #283645;
+}
+.form-header__title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.form-main__legend {
+  text-align: center;
+  line-height: 30px;
+}
+.form-main__app {
+  background: #F2F2F2;
+}
+.form-main__contacts-telephone, .form-main__contacts-email {
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #D22856;
+}
+.form-main__name {
+  text-transform: uppercase;
+  line-height: 30px;
+  color: #D22856;
+}
+.form-main__emotions-label {
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #D22856;
+}
+.form-main__button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #2AAB6D;
+  border: 2px solid #2AAB6D;
+  border-radius: 1px;
+  padding: 23px 45px;
+}
+.form-main__end-legend {
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #D22856;
+}
+
+.filter {
+  background: #F2F2F2;
+}
+.filter__title {
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #D22856;
+}
+
+.control {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.app__title {
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #D22856;
+}
+
+.catalog-header {
+  background-image: url("../../../img/back-mobile.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #283645;
+}
+.catalog-header__title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+}
+
+.upload__legend {
+  line-height: 30px;
+  text-align: center;
+}
+.upload__container {
+  background: #F2F2F2;
+}
+.upload__button-post {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #D22856;
+  border: 3px solid #D22856;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 21px 90px 21px 91px;
+}
+.upload__button-reset {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #283645;
+  border: 3px solid #283645;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 21px 103px 21px 104px;
+}
+
+.user-post__info {
+  background: #F2F2F2;
+}
+.user-post__head-text {
+  line-height: 30px;
+  text-align: center;
+}
+.user-post__name {
+  font-weight: 700;
+}
+.user-post__time {
+  font-weight: 300;
+}
+.user-post__like-counter {
+  color: #D22856;
+}
+/*# sourceMappingURL=style.css.map */
