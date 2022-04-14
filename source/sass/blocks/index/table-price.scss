@@ -1,0 +1,26 @@
+.table-price {
+  line-height: 30px;
+
+  &__header {
+    color: #FFFFFF;
+    background: #283645;
+    border: 2px solid #283645;
+    border-radius: 1px 0px 0px 0px;
+  }
+
+  &__license-type {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  &__license-price {
+    font-weight: 300;
+    font-size: 18px;
+  }
+
+  &__cell {
+    text-align: start;
+    border: 2px solid #E5E5E5;
+    border-radius: 1px 0px 0px 0px;
+  }
+}

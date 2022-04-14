@@ -1,0 +1,22 @@
+.user-post {
+  &__info {
+    background: #F2F2F2;
+  }
+
+  &__head-text {
+    line-height: 30px;
+    text-align: center;
+  }
+
+  &__name {
+    font-weight: 700;
+  }
+
+  &__time {
+    font-weight: 300;
+  }
+
+  &__like-counter {
+    color: #D22856;
+  }
+}
