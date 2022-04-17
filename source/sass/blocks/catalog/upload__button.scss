@@ -1,26 +1,17 @@
-.upload {
-  &__legend {
-    line-height: 30px;
-    text-align: center;
-  }
-
-  &__container {
-    background: #F2F2F2;
-  }
-
-  &__button-post {
+.upload__button {
+  &-post {
     font-weight: 700;
     font-size: 18px;
     line-height: 18px;
     text-align: center;
-    color: #D22856;
-    border: 3px solid #D22856;
+    color: #d22856;
+    border: 3px solid #d22856;
     box-sizing: border-box;
     border-radius: 30px;
     padding: 21px 90px 21px 91px;
   }
 
-  &__button-reset {
+  &-reset {
     font-weight: 700;
     font-size: 18px;
     line-height: 18px;
