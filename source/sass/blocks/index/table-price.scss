@@ -1,0 +1,26 @@
+.table-price {
+  line-height: 30px;
+}
+
+.table-price__header {
+  color: #ffffff;
+  background: #283645;
+  border: 2px solid #283645;
+  border-radius: 1px 0px 0px 0px;
+}
+
+.table-price__cell {
+  text-align: start;
+  border: 2px solid #e5e5e5;
+  border-radius: 1px 0px 0px 0px;
+}
+
+.table-price__license-type {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.table-price__license-price {
+  font-weight: 300;
+  font-size: 18px;
+}
