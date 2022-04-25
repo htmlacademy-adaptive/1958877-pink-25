@@ -1,0 +1,15 @@
+.social {
+  padding-bottom: 40px;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    padding-bottom: 0;
+  }
+
+  @media (min-width: $desctop-width) {}
+}
+
+.social__list {
+  display: flex;
+  list-style-type: none;
+}

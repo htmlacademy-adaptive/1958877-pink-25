@@ -1,9 +1,118 @@
 .advantages {
   background: #f2f2f2;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    text-align: start;
+  }
+
+  @media (min-width: $desctop-width) {
+    padding: 0 130px 0 130px;
+    flex-direction: column;
+  }
 }
 
 .advantages__title {
+  width: 280px;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+
+  @media (min-width: $desctop-width) {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
+
+}
+
+.advantages__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 49px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 175px;
+    margin: 0 20px 0 330px;
+  }
+
+  @media (min-width: $desctop-width) {
+    order: 1;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+    text-align: center;
+  }
+}
+
+.advantages__description {
+  width: 280px;
+  margin: 0 auto;
+  margin-bottom: 43px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 46px;
+  }
+
+  @media (min-width: $desctop-width) {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0;
+  }
+}
+
+.advantages__description:nth-of-type(3n) {
+  @media (min-width: $tablet-width) {
+    margin-bottom: 49px;
+  }
+}
+
+.advantages__iphone-container {
+  @media (min-width: $desctop-width) {
+    margin: 0;
+    margin-bottom: 59px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 20px;
+  }
+}
+
+.advantages__iphone-1 {
+  @media (min-width: $desctop-width) {
+    background-image: url("../img/iphone_3.png");
+    width: 157px;
+    height: 320px;
+    margin: 0 auto;
+  }
+}
+
+.advantages__iphone-2 {
+  @media (min-width: $desctop-width) {
+    background-image: url("../img/iphone_3.png");
+    width: 157px;
+    height: 320px;
+    margin: 0 auto;
+  }
+}
+
+.advantages__iphone-3 {
+  background-image: url("../img/iphone_3.png");
+  width: 157px;
+  height: 320px;
+  margin: 0 auto;
+  margin-top: 3px;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    left: 55px;
+  }
+
+  @media (min-width: $desctop-width) {
+    position: inherit;
+  }
 }

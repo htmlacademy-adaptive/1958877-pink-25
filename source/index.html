@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>«PINK»</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -10,59 +11,63 @@
 <body class="page__body">
   <div class="page__container">
     <header class="main-header header">
-      <div class="main-header__background">
-        <a class="main-header__logo" href="index.html">
-          <img src="img/logo.svg" width="74" height="23" alt="Логотип Pink">
-        </a>
-        <nav class="main-nav">
-          <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
-          <div class="main-nav__wrapper">
-            <ul class="main-nav__list site-list">
-              <li class="site-list__item site-list__item--active">
-                <a>
-                  Главная
-                </a>
-              </li>
-              <li class="site-list__item">
-                <a href="catalog.html">
-                  Фотографии
-                </a>
-              </li>
-              <li class="site-list__item">
-                <a href="form.html">
-                  Конкурс
-                </a>
-              </li>
-              <li class="site-list__item">
-                <a href="https://htmlacademy.ru/intensive/adaptive">
-                  HTML Academy
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <div class="header-middle">
-          <p class="header-middle__slogan">Взгляните на жизнь иначе!</p>
+      <div class="main-header-container">
+        <div class="header-header">
+          <nav class="main-nav">
+            <a class="main-nav__logo" href="index.html">
+              <img class="main-nav__pink-logo" src="img/logo.svg" width="74" height="23" alt="Логотип Pink">
+            </a>
+            <button class="main-nav__toggle" type="button"><span class="visually-hidden"></span></button>
+            <div class="main-nav__wrapper">
+              <ul class="main-nav__list site-list">
+                <li class="site-list__item site-list__item--active">
+                  <a>
+                    Главная
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="catalog.html">
+                    Фотографии
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="form.html">
+                    Конкурс
+                  </a>
+                </li>
+                <li class="site-list__item">
+                  <a href="https://htmlacademy.ru/intensive/adaptive">
+                    HTML Academy
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
-      </div>
-      <div class="header-footer">
-        <a class="button header-footer__button" href="https://www.apple.com/ru/app-store/">Скачать приложение</a>
-        <div class="header-footer__download download">
-          <ul class="download__list">
-            <li class="download__item">
-              <a class="download__link download__link--apple" href="https://www.apple.com/ru/app-store/">Загрузить на
-                apple</a>
-            </li>
-            <li class="download__item">
-              <a class="download__link download__link--android"
-                href="https://play.google.com/store/apps?hl=ru&gl=US">Загрузить на android</a>
-            </li>
-            <li class="download__item">
-              <a class="download__link download__link--windows" href="https://www.microsoft.com/store/">Загрузить на
-                windows</a>
-            </li>
-          </ul>
-          <p class="download__notes">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+        <div class="header-wrapper">
+          <div class="header-telephone"></div>
+          <div class="header-footer">
+            <p class="header-footer__slogan">Взгляните на жизнь иначе!</p>
+            <a class="button header-footer__button" href="https://www.apple.com/ru/app-store/">Скачать приложение</a>
+            <div class="header-footer__download download">
+              <ul class="download__list">
+                <li class="download__item">
+                  <a class="download__link download__link--apple" href="https://www.apple.com/ru/app-store/">Загрузить
+                    на
+                    apple</a>
+                </li>
+                <li class="download__item">
+                  <a class="download__link download__link--android"
+                    href="https://play.google.com/store/apps?hl=ru&gl=US">Загрузить на android</a>
+                </li>
+                <li class="download__item">
+                  <a class="download__link download__link--windows" href="https://www.microsoft.com/store/">Загрузить на
+                    windows</a>
+                </li>
+              </ul>
+              <p class="download__notes">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -89,16 +94,30 @@
               новых</p>
           </li>
         </ul>
-
-
-
+        <div class="advantages__iphone-container">
+          <div class="advantages__iphone-1"></div>
+          <div class="advantages__iphone-2"></div>
+          <div class="advantages__iphone-3"></div>
+        </div>
+      </section>
+      <section class="effect">
+        <div class="effect__24"></div>
+        <div class="effect__container">
+          <h2 class="effect__title">Эффект на 24 часа!</h2>
+          <p class="effect__legend">Британские ученые провели исследования и доказали, что положительный эффект от
+            использования приложения длится целые сутки!</p>
+          <a class="effect__link" href="#">Узнать больше об исследовании</a>
+        </div>
       </section>
       <section class="review">
         <h2 class="visually-hidden">Отзывы пользователей</h2>
         <div class="review__container slider">
           <ul class="review__list slider__list">
             <li class="review__item slider__item">
-              <h3 class="review__owner">Николай Петров</h3>
+              <div class="review__container-owner">
+                <h3 class="review__owner">Николай Петров</h3>
+                <p class="review__owner-information">25 лет, водитель трамвая</p>
+              </div>
               <blockquote class="review__description">«Это приложение перевернуло мой мир и позволило по-новому
                 взглянуть
                 на
@@ -245,7 +264,8 @@
           </li>
           <li class="contacts__item">
             <b class="contacts__description">Приезжайте в гости:</b>
-            <a class="contacts__address">ул. Большая Конюшенная, 19/8</a>
+            <a class="contacts__address">ул. Большая
+              <br>Конюшенная, 19/8</a>
           </li>
         </ul>
         <div class="contacts__image"></div>
@@ -269,10 +289,10 @@
                 Ютубе</a>
             </li>
           </ul>
-          <div class="main-footer__copyright copyright">
-            <p class="copyright__text">Разработано:</p>
-            <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-          </div>
+        </div>
+        <div class="main-footer__copyright copyright">
+          <p class="copyright__text">Разработано:</p>
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
         </div>
       </div>
     </footer>

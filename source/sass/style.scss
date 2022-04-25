@@ -1,12 +1,34 @@
+//viewports
+$tablet-width: 768px;
+$desctop-width: 1200px;
+$mobile-width-only: 0px;
+
+h3 {
+  margin: 0;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+@media (min-width: $tablet-width) {}
+
+@media (min-width: $desctop-width) {}
+
+//import main css
 @import "./fonts.scss";
 @import "./blocks/body.scss";
 @import "./blocks/page.scss";
-
+//import index
 @import "./blocks/index/main-header.scss";
 @import "./blocks/index/header.scss";
-@import "./blocks/index/header-middle.scss";
+@import "./blocks/index/main-footer.scss";
+@import "./blocks/index/header-header.scss";
+@import "./blocks/index/header-telephone.scss";
 @import "./blocks/index/main-nav.scss";
+@import "./blocks/index/header-wrapper.scss";
 @import "./blocks/index/header-footer.scss";
+@import "./blocks/index/effect.scss";
 @import "./blocks/index/download.scss";
 @import "./blocks/index/copyright.scss";
 @import "./blocks/index/contacts.scss";
@@ -15,13 +37,15 @@
 @import "./blocks/index/rewiew.scss";
 @import "./blocks/index/advantages.scss";
 @import "./blocks/index/main-container.scss";
-
+@import "./blocks/index/social.scss";
+@import "./blocks/index/site-list.scss";
+//import form
 @import "./blocks/form/form-header.scss";
 @import "./blocks/form/form-main.scss";
 @import "./blocks/form/filter.scss";
 @import "./blocks/form/control.scss";
 @import "./blocks/form/app.scss";
-
+//import catalog
 @import "./blocks/catalog/catalog-header.scss";
 @import "./blocks/catalog/upload.scss";
 @import "./blocks/catalog/user-post.scss";

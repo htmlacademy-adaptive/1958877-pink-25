@@ -1,0 +1,16 @@
+.header-telephone {
+  display: flex;
+  background-image: url("../img/back1-mobile.png");
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 286px;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    left: 450px;
+    width: 660px;
+    height: 545px;
+  }
+
+  @media (min-width: $desctop-width) {}
+}

@@ -1,0 +1,76 @@
+.effect {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 20px;
+    padding-top: 54px;
+    display: flex;
+  }
+
+  @media (min-width: $desctop-width) {
+    background: #f2f2f2;
+    padding: 76px 166px 67px 131px;
+  }
+}
+
+.effect__24 {
+  @media (min-width: $tablet-width) {
+    width: 238px;
+    height: 276px;
+  }
+
+  @media (min-width: $tablet-width) {
+    width: 298px;
+    height: 345px;
+  }
+}
+
+.effect__container {
+
+  @media (min-width: $tablet-width) {
+    text-align: left;
+    margin-top: 48px;
+    margin-bottom: 29px;
+    margin-left: 72px;
+  }
+
+  @media (min-width: $tablet-width) {
+    margin-top: 82px;
+    margin-bottom: 0px;
+    margin-left: 71px;
+  }
+}
+
+.effect__title {
+
+  @media (min-width: $tablet-width) {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0;
+    margin-bottom: 24px;
+  }
+
+  @media (min-width: $desctop-width) {
+    line-height: 30px;
+    margin-bottom: 37px;
+  }
+}
+
+.effect__legend {
+  @media (min-width: $tablet-width) {
+    margin-bottom: 24px;
+  }
+
+  @media (min-width: $desctop-width) {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 47px;
+  }
+
+
+}
+
+.effect__link {
+  color: #d22856;
+}

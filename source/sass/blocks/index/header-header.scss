@@ -1,0 +1,12 @@
+.header-header {
+  margin: 0;
+  margin-bottom: 110px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 74px;
+  }
+
+  @media (min-width: $desctop-width) {
+    margin-bottom: 98px;
+  }
+}

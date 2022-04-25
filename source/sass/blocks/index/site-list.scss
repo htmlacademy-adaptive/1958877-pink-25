@@ -1,0 +1,16 @@
+.site-list__item {
+
+  @media (min-width: $tablet-width) {
+
+  }
+
+  @media (min-width: $desctop-width) {
+    margin-right: 78px;
+  }
+}
+
+.site-list__item:last-child{
+  @media (min-width: $desctop-width) {
+    margin-right: 0;
+  }
+}
