@@ -1,9 +1,27 @@
 .header-wrapper {
   display: flex;
   flex-direction: column;
+  background-image: url("../img/back1-mobile.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 286px;
+  padding-top: 276px;
+  margin: 0 auto;
+
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
+    padding-top: 102px;
+    width: 620px;
+    height: 545px;
+    background-position: right bottom;
   }
 
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    padding-top: 102px;
+    width: 960px;
+    height: 545px;
+    background-position: right bottom;
+  }
 }

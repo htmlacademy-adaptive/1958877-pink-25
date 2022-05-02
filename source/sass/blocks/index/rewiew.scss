@@ -1,4 +1,4 @@
-.review__description {
+.review__deskription {
   font-size: 14px;
   margin: 0 20px;
   margin-bottom: 40px;
@@ -8,7 +8,7 @@
     margin-bottom: 51px;
   }
 
-  @media (min-width: $desctop-width) {
+  @media (min-width: $desktop-width) {
     margin: 0 256px 50px 256px;
   }
 }
@@ -31,7 +31,7 @@
     padding-top: 109px;
   }
 
-  @media (min-width: $desctop-width) {
+  @media (min-width: $desktop-width) {
     margin-top: 72px;
   }
 }
@@ -55,8 +55,8 @@
     margin-bottom: 17px;
   }
 
-  @media (min-width: $desctop-width) {
-    margin: 0 495px 17px 495px;
+  @media (min-width: $desktop-width) {
+    margin: 0 auto 17px auto;
   }
 }
 
@@ -68,7 +68,7 @@
     margin: 0 auto;
   }
 
-  @media (min-width: $desctop-width) {
+  @media (min-width: $desktop-width) {
     font-size: 18px;
   }
 }

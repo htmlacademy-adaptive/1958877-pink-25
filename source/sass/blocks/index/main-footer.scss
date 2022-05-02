@@ -11,7 +11,7 @@
     justify-content: space-between;
   }
 
-  @media (min-width: $desctop-width) {
+  @media (min-width: $desktop-width) {
     margin: 0 130px;
     padding-top: 71px;
     padding-bottom: 72px;
@@ -25,5 +25,5 @@
     margin: 0;
   }
 
-  @media (min-width: $desctop-width) {}
+  @media (min-width: $desktop-width) {}
 }

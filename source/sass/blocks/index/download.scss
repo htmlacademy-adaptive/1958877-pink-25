@@ -1,9 +1,15 @@
+.download__list {
+  @media (min-width: $tablet-width) {
+    padding-bottom: 119px;
+  }
+}
+
 .download__notes {
   width: 280px;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
-  margin: 0 auto;
+  margin: 0 0;
 
   @media (min-width: $tablet-width) {
     width: auto;

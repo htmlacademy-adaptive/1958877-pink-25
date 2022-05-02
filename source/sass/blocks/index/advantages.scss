@@ -6,8 +6,8 @@
     text-align: start;
   }
 
-  @media (min-width: $desctop-width) {
-    padding: 0 130px 0 130px;
+  @media (min-width: $desktop-width) {
+    padding: 0;
     flex-direction: column;
   }
 }
@@ -20,7 +20,7 @@
   margin: 0 auto;
   margin-bottom: 24px;
 
-  @media (min-width: $desctop-width) {
+  @media (min-width: $desktop-width) {
     font-size: 30px;
     line-height: 30px;
     margin-bottom: 24px;
@@ -35,18 +35,55 @@
   padding-top: 49px;
 
   @media (min-width: $tablet-width) {
-    padding-top: 175px;
-    margin: 0 20px 0 330px;
+    padding-top: 122px;
+    padding-left: 330px;
+    margin: 0 20px 0 0;
+    background-image: url("../img/iphone_3.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
   }
 
-  @media (min-width: $desctop-width) {
+  @media (min-width: $desktop-width) {
+    background-image: none;
     order: 1;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     display: grid;
     grid-template-columns: 300px 300px 300px;
     gap: 20px;
     text-align: center;
+    align-self: center;
+  }
+}
+
+
+.advantages__item {
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/iphone_3.png");
+    padding-top: 360px;
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+}
+
+.advantages__item:nth-of-type(3n) {
+  background-image: url("../img/iphone_3.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  height: 320px;
+  padding-bottom: 150px;
+
+  @media (min-width: $tablet-width) {
+    background-image: none;
+    padding: 0;
+    height: auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-image: url("../img/iphone_3.png");
+    padding-top: 360px;
+    background-repeat: no-repeat;
+    background-position: center top;
   }
 }
 
@@ -59,7 +96,7 @@
     margin-bottom: 46px;
   }
 
-  @media (min-width: $desctop-width) {
+  @media (min-width: $desktop-width) {
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 0;
@@ -73,7 +110,7 @@
 }
 
 .advantages__iphone-container {
-  @media (min-width: $desctop-width) {
+  @media (min-width: $desktop-width) {
     margin: 0;
     margin-bottom: 59px;
     display: grid;
@@ -83,7 +120,7 @@
 }
 
 .advantages__iphone-1 {
-  @media (min-width: $desctop-width) {
+  @media (min-width: $desktop-width) {
     background-image: url("../img/iphone_3.png");
     width: 157px;
     height: 320px;
@@ -92,7 +129,7 @@
 }
 
 .advantages__iphone-2 {
-  @media (min-width: $desctop-width) {
+  @media (min-width: $desktop-width) {
     background-image: url("../img/iphone_3.png");
     width: 157px;
     height: 320px;
@@ -101,18 +138,18 @@
 }
 
 .advantages__iphone-3 {
-  background-image: url("../img/iphone_3.png");
-  width: 157px;
-  height: 320px;
-  margin: 0 auto;
-  margin-top: 3px;
+  //background-image: url("../img/iphone_3.png");
+  //width: 157px;
+  //height: 320px;
+  //margin: 0 auto;
+  //margin-top: 3px;
 
   @media (min-width: $tablet-width) {
     position: absolute;
     left: 55px;
   }
 
-  @media (min-width: $desctop-width) {
+  @media (min-width: $desktop-width) {
     position: inherit;
   }
 }

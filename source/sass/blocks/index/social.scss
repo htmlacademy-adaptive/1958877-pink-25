@@ -6,10 +6,12 @@
     padding-bottom: 0;
   }
 
-  @media (min-width: $desctop-width) {}
+  @media (min-width: $desktop-width) {}
 }
 
 .social__list {
+  padding: 0;
   display: flex;
   list-style-type: none;
+  margin: 0 auto;
 }
