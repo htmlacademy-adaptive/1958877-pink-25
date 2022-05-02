@@ -1,5 +1,27 @@
+.download__list {
+  @media (min-width: $tablet-width) {
+    padding-bottom: 119px;
+  }
+}
+
 .download__notes {
+  width: 280px;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
+  margin: 0 0;
+
+  @media (min-width: $tablet-width) {
+    width: auto;
+    font-size: 18px;
+  }
+
+}
+
+.download__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  //margin: 30 auto;
+  //@media (min-width: $tablet-width) {margin: 46 auto 38 auto;}
 }

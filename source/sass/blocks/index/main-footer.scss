@@ -1,0 +1,29 @@
+.main-footer__container {
+  padding-top: 57px;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 36px;
+    padding-bottom: 37px;
+    margin: 0 20px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin: 0 130px;
+    padding-top: 71px;
+    padding-bottom: 72px;
+  }
+}
+
+.main-footer__logo {
+  margin: 0 87px 37px 159px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
+
+  @media (min-width: $desktop-width) {}
+}

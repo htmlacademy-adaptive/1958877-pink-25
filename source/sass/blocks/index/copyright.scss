@@ -1,4 +1,22 @@
+.copyright {
+  display: flex;
+  margin: 0 100px 40px 100px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
+
+}
+
 .copyright__text {
   font-size: 14px;
   line-height: 18px;
+
+  @media (min-width: $desktop-width) {
+    font-size: 18px;
+  }
+}
+
+.copyright__link {
+  display: block;
 }
