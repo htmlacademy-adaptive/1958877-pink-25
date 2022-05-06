@@ -1,6 +1,49 @@
+.app__wrapper {
+  padding-top: 44px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-right: 20px;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: $tablet-width) {
+    width: 620px;
+    padding-top: 0;
+    padding-bottom: 66px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 468px;
+    padding: 0;
+  }
+}
+
 .app__title {
   line-height: 18px;
   text-align: center;
   text-transform: uppercase;
   color: #d22856;
+  margin: 0 auto;
+  margin-bottom: 38px;
 }
+
+.app__list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    padding-left: 72px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: 47px;
+    padding-bottom: 52px;
+    padding-left: 58px;
+  }
+}
+
+.app__item {}

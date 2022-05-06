@@ -1,16 +1,4 @@
-.page__container {
-  //min-width: 320px;
-  //margin: 0 auto;
-
-  @media (min-width: $tablet-width) {
-    // min-width: 660px;
-  }
-
-  @media (min-width: $desktop-width) {
-    // min-width: 1200px;
-  }
-}
-
 .page__body {
   margin: 0;
+  width: 320px;
 }

@@ -1,3 +1,16 @@
+.upload__button {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 12px;
+  padding-top: 38px;
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 183px 183px;
+    column-gap: 44px;
+  }
+}
+
 .upload__button-post {
   font-weight: 700;
   font-size: 18px;
@@ -8,6 +21,10 @@
   box-sizing: border-box;
   border-radius: 30px;
   padding: 21px 90px 21px 91px;
+
+  @media (min-width: $desktop-width) {
+    padding: 21px 0;
+  }
 }
 
 .upload__button-reset {
@@ -20,13 +37,60 @@
   box-sizing: border-box;
   border-radius: 30px;
   padding: 21px 103px 21px 104px;
+
+  @media (min-width: $desktop-width) {
+    padding: 21px 0;
+  }
 }
 
 .upload__container {
   background: #f2f2f2;
+
+  @media (min-width: $desktop-width) {
+    background: none;
+  }
+}
+
+.upload__wrapper {
+  width: 280px;
+  padding: 20px 20px 41px 20px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 300px 275px;
+    width: 620px;
+    padding: 57px 20px 54px 20px;
+    column-gap: 45px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 300px 410px;
+    width: 800px;
+    padding: 57px 60px 57px 80px;
+    background: #f2f2f2;
+    column-gap: 90px;
+  }
 }
 
 .upload__legend {
   line-height: 30px;
   text-align: center;
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-bottom: 52px;
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    width: 620px;
+    margin-bottom: 78px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 130px;
+    width: 960px;
+    margin-bottom: 75px;
+  }
 }
+
