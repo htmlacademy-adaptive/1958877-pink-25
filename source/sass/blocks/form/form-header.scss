@@ -10,4 +10,22 @@
   font-weight: 300;
   font-size: 24px;
   line-height: 33px;
+  margin: 36px auto 0 auto;
+  padding-left: 20px;
+  padding-bottom: 46px;
+  padding-right: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 50px;
+    line-height: 68px;
+    margin-top: 81px;
+    padding-bottom: 74px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 74px;
+    padding-left: 130px;
+    padding-bottom: 104px;
+    padding-right: 130px;
+  }
 }
