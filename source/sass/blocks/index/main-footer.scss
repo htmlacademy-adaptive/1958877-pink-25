@@ -1,12 +1,16 @@
 .main-footer__container {
-  padding-top: 57px;
-  display: flex;
-  flex-direction: column;
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 280px;
+  //width: 100px;
+  row-gap: 38px;
 
   @media (min-width: $tablet-width) {
+    width: auto;
+    display: flex;
     padding-top: 36px;
     padding-bottom: 37px;
-    margin: 0 20px;
+    margin: 0;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -18,12 +22,32 @@
   }
 }
 
-.main-footer__logo {
-  margin: 0 87px 37px 159px;
+.main-footer__pink-logo {
+  margin: 0 0 0 71px;
+  padding-top: 17px;
+
 
   @media (min-width: $tablet-width) {
-    margin: 0;
+    display: block;
   }
 
   @media (min-width: $desktop-width) {}
+}
+
+.main-footer__logo {
+  display: block;
+  text-align: center;
+  //width: 145px;
+  //margin-left: 68px;
+  top: 0px;
+  left: 0px;
+  background-image: url("../img/glasses.svg");
+  width: 59px;
+  height: 40px;
+  background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+    margin-right: 74px;
+  }
 }

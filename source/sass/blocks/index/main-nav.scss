@@ -12,6 +12,7 @@
 
 
   @media (min-width: $tablet-width) {
+    padding-top: 27px;
     margin-bottom: 0;
     width: 620px;
   }
@@ -23,22 +24,38 @@
 
 .main-nav__list {
   list-style-type: none;
-  padding: 0;
+  display: grid;
+  grid-template-columns: 320px;
+  width: 320px;
   margin: 0;
-  left: 10px;
-  top: 26px;
+  padding: 0;
 
 
-  @media (min-width: $tablet-width) {}
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 660px;
+    width: 660px;
+  }
 
   @media (min-width: $desktop-width) {
     display: flex;
     line-height: 18px;
     font-weight: 400;
-    margin: 48px 0;
+    margin: 21px 0 48px 0;
   }
 }
 
+.main-nav__logo {
+  @media (min-width: $tablet-width) {
+    width: 145px;
+    //top: 0px;
+    //left: 0px;
+    background-image: url("../img/glasses.svg");
+    width: 59px;
+    height: 40px;
+    background-repeat: no-repeat;
+  }
+
+}
 
 .main-nav__pink-logo {
   //width: 74px;
@@ -46,7 +63,9 @@
   margin: 22px auto 21px 0;
 
   @media (min-width: $tablet-width) {
-    margin: 43px auto;
+    margin: 0 auto 42px auto;
+    padding-top: 17px;
+    padding-left: 71px;
   }
 
   @media (min-width: $desktop-width) {}
@@ -55,10 +74,19 @@
 .main-nav__toggle {
   height: 24px;
   width: 50px;
-  margin: 21px 0 21px auto;
+  //margin: 21px 0 21px auto;
+  position: absolute;
+  top: 21px;
+  right: 20px;
+  z-index: 2;
+  border: none;
+  cursor: pointer;
+  background-color: #00000000;
+  padding: 0;
 
   @media (min-width: $tablet-width) {
-    margin: 43px 0 43px auto;
+    margin: 16px 0 43px auto;
+    position: inherit;
   }
 
   @media (min-width: $desktop-width) {
@@ -66,10 +94,32 @@
   }
 }
 
+.main-nav--opened .main-nav__toggle {
+  top: 23px;
+  right: 20px;
+  left: auto;
+  background-image: url("../img/close-menu-btn.svg");
+  width: 23px;
+  height: 23px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: none;
+}
+
 .main-nav__wrapper {
-  background-color: #1d2631;
+  background-color: #283645;
+  position: absolute;
+  left: 0px;
+  top: 69px;
+  z-index: 3;
+
+
+  @media (min-width: $tablet-width) {
+    top: 109px;
+  }
 
   @media (min-width: $desktop-width) {
+    position: static;
     background-color: #00000000;
     margin-left: auto;
   }

@@ -1,6 +1,8 @@
 .header-header {
   margin: 0 auto;
-  background-color: #00000030;
+  //background-color: #00000030;
+  background-color: #283645;
+
   //margin-bottom: 110px;
 
   @media (min-width: $tablet-width) {
@@ -8,6 +10,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    //margin-bottom: 98px;
+    background-color: #00000030;
   }
 }

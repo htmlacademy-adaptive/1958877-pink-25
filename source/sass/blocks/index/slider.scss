@@ -1,0 +1,48 @@
+.slider__toggles {
+  //display: grid;
+  //grid-template-columns: 12px 12px 12px;
+  //column-gap: 13px;
+  display: flex;
+  border: none;
+  align-items: baseline;
+  padding-left: 100px;
+  padding-right: 100px;
+
+
+  @media (min-width: $tablet-width) {
+    padding-left: 274px;
+    padding-right: 274px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: none;
+  }
+}
+
+.slider__toggle {
+  display: block;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  width: 12px;
+  height: 12px;
+  background: #28364530;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.slider__toggle-price {
+  border: 3px solid #f2f2f2;
+}
+
+.slider__toggle-current {
+  width: 12px;
+  height: 12px;
+  background: #ffffff;
+  border-radius: 50%;
+  border: 3px solid #283645;
+}

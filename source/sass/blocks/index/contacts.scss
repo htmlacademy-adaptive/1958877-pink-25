@@ -8,6 +8,7 @@
 }
 
 .contacts__telephone {
+  text-decoration: none;
   display: block;
   font-weight: 300;
   font-size: 24px;
@@ -17,6 +18,7 @@
 }
 
 .contacts__email {
+  text-decoration: none;
   display: block;
   font-weight: 300;
   font-size: 24px;
@@ -46,15 +48,25 @@
 
 }
 
-.contacts__image {
-  height: 200px;
-  background-image: url("../img/map.png");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-position: center;
+
+
+.contacts__iframe {
+  display: block;
+  border: none;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 660px;
+    height: 374px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+    height: 502px;
+  }
 }
 
-.contacts__deskription {
+.contacts__description {
   display: block;
   font-weight: 700;
   font-size: 18px;

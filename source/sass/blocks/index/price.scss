@@ -5,7 +5,9 @@
 }
 
 .price__toggles {
-  margin: 0 auto;
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
 
 .price__table {

@@ -15,7 +15,7 @@
       <div class="main-header-container">
         <div class="header-header">
           <div class="wrapper">
-            <nav class="main-nav">
+            <nav class="main-nav main-nav--opened">
               <a class="main-nav__logo" href="index.html">
                 <img class="main-nav__pink-logo" src="img/logo.svg" width="74" height="23" alt="Логотип Pink">
               </a>
@@ -23,22 +23,22 @@
               <div class="main-nav__wrapper">
                 <ul class="main-nav__list site-list">
                   <li class="site-list__item site-list__item--active">
-                    <a>
+                    <a class="site-list__item-legend">
                       Главная
                     </a>
                   </li>
                   <li class="site-list__item">
-                    <a href="catalog.html">
+                    <a class="site-list__item-legend" href="catalog.html">
                       Фотографии
                     </a>
                   </li>
                   <li class="site-list__item">
-                    <a href="form.html">
+                    <a class="site-list__item-legend" href="form.html">
                       Конкурс
                     </a>
                   </li>
                   <li class="site-list__item">
-                    <a href="https://htmlacademy.ru/intensive/adaptive">
+                    <a class="site-list__item-legend" href="https://htmlacademy.ru/intensive/adaptive">
                       HTML Academy
                     </a>
                   </li>
@@ -55,18 +55,14 @@
               <div class="header-footer__download download">
                 <ul class="download__list">
                   <li class="download__item">
-                    <a class="download__link download__link--apple" href="https://www.apple.com/ru/app-store/">Загрузить
-                      на
-                      apple</a>
+                    <a class="download__link download__link--apple" href="https://www.apple.com/ru/app-store/"></a>
                   </li>
                   <li class="download__item">
                     <a class="download__link download__link--android"
-                      href="https://play.google.com/store/apps?hl=ru&gl=US">Загрузить на android</a>
+                      href="https://play.google.com/store/apps?hl=ru&gl=US"></a>
                   </li>
                   <li class="download__item">
-                    <a class="download__link download__link--windows" href="https://www.microsoft.com/store/">Загрузить
-                      на
-                      windows</a>
+                    <a class="download__link download__link--windows" href="https://www.microsoft.com/store/"></a>
                   </li>
                 </ul>
                 <p class="download__notes">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
@@ -135,9 +131,9 @@
               </li>
             </ul>
             <p class="review__toggles slider__toggles">
-              <button class="slider__toggle slider-toggle-current" type="button">1</button>
-              <button class="slider__toggle" type="button">2</button>
-              <button class="slider__toggle" type="button">3</button>
+              <button class="slider__toggle slider__toggle-current" type="button"></button>
+              <button class="slider__toggle" type="button"></button>
+              <button class="slider__toggle" type="button"></button>
             </p>
           </div>
         </div>
@@ -254,9 +250,9 @@
               </tbody>
             </table>
             <p class="price__toggles slider__toggles">
-              <button class="slider__toggle" type="button">1</button>
-              <button class="slider__toggle slider__toggle-current" type="button">2</button>
-              <button class="slider__toggle" type="button">3</button>
+              <button class="slider__toggle slider__toggle-price" type="button"></button>
+              <button class="slider__toggle slider__toggle-price slider__toggle-current" type="button"></button>
+              <button class="slider__toggle slider__toggle-price" type="button"></button>
             </p>
           </div>
         </div>
@@ -281,32 +277,37 @@
             </li>
           </ul>
         </div>
+        <iframe class="contacts__iframe"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7987.290429285352!2d30.3174089!3d59.968266!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5f2ac55f567b2400!2sHTML%20Academy!5e0!3m2!1sru!2sru!4v1652284072304!5m2!1sru!2sru"
+          width="320" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="contacts__image"></div>
       </section>
     </main>
     <footer class="main-footer">
       <div class="wrapper">
         <div class="main-footer__container">
-          <div class="main-footer__logo main-footer__logo-glasses">
-            <img src="img/logo.svg" width="74" height="23" alt="Логотип Pink">
-          </div>
+          <a class="main-footer__logo main-footer__logo-glasses">
+            <img class="main-footer__pink-logo" src="img/logo-black.svg" width="74" height="23" alt="Логотип Pink">
+          </a>
           <div class="main-footer__social social">
             <ul class="social__list">
               <li class="social__item">
-                <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+                <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy"></a>
               </li>
               <li class="social__item">
-                <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">Мы в Телеграме</a>
+                <a class="social__link social__link--telegram" href="https://t.me/htmlacademy"></a>
               </li>
               <li class="social__item">
-                <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">Мы в
-                  Ютубе</a>
+                <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru"></a>
               </li>
             </ul>
           </div>
           <div class="main-footer__copyright copyright">
             <p class="copyright__text">Разработано:</p>
-            <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+              <img class="copyright__img" src="img/htmlacademy.svg" alt="Логотип htmlacademy" width="27"
+                height="34"></a>
           </div>
         </div>
       </div>

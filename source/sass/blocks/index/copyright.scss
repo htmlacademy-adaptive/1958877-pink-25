@@ -1,6 +1,6 @@
 .copyright {
   display: flex;
-  margin: 0 100px 40px 100px;
+  margin: 0 75px 40px 75px;
 
   @media (min-width: $tablet-width) {
     margin: 0;
@@ -11,6 +11,7 @@
 .copyright__text {
   font-size: 14px;
   line-height: 18px;
+  margin: auto 15px auto 0px;
 
   @media (min-width: $desktop-width) {
     font-size: 18px;
@@ -19,4 +20,11 @@
 
 .copyright__link {
   display: block;
+  width: 27px;
+  height: 34px;
+  margin: auto 0;
+}
+
+.copyright__img {
+  align-self: center;
 }
