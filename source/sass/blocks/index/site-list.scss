@@ -1,5 +1,5 @@
 .site-list__item {
-  padding: 25px auto;
+  text-decoration: none;
   text-align: center;
 
   @media (min-width: $tablet-width) {}
@@ -7,6 +7,17 @@
   @media (min-width: $desktop-width) {
     padding: 0;
     margin-right: 78px;
+  }
+}
+
+.site-list__item-legend {
+  display: block;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  @media (min-width: $desktop-width) {
+    padding: 0;
   }
 }
 

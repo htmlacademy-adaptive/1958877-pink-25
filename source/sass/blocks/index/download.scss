@@ -19,9 +19,46 @@
 }
 
 .download__list {
-  display: flex;
+  display: grid;
+  grid-template-columns: 47px 43px 41px;
+  column-gap: 35px;
   list-style-type: none;
+  margin-top: 32px;
+  margin-right: 38px;
+  margin-bottom: 28px;
+  margin-left: 38px;
+  align-items: center;
   padding: 0;
   //margin: 30 auto;
   //@media (min-width: $tablet-width) {margin: 46 auto 38 auto;}
+}
+
+.download__link {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.download__link--apple {
+  background-image: url("../img/apple-logo.svg");
+  width: 47px;
+  height: 56px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.download__link--android {
+  background-image: url("../img/android-logo.svg");
+  width: 43px;
+  height: 47px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.download__link--windows {
+  background-image: url("../img/microsoft-logo.svg");
+  width: 44px;
+  height: 41px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
